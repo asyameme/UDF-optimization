@@ -94,15 +94,15 @@ RETURNS @RESULT TABLE
 (
     ID_WORK INT,
     CREATE_Date DATETIME,
-    MaterialNumber INT,
+    MaterialNumber DECIMAL(8,2),
     IS_Complit BIT,
-    FIO VARCHAR(100),
+    FIO VARCHAR(255),
     D_DATE VARCHAR(10),
     WorkItemsNotComplit INT,
     WorkItemsComplit INT,
-    FULL_NAME VARCHAR(100),
+    FULL_NAME VARCHAR(101),
     StatusId INT,
-    StatusName VARCHAR(100),
+    StatusName VARCHAR(255),
     Is_Print BIT
 )
 AS
